@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:mythril_block",
+    "tutorialmod:mythril_ore",
+    "tutorialmod:stone_brick_pillar"
+  ]
+}
