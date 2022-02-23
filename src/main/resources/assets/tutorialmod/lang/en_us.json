@@ -3,5 +3,7 @@
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
 
 
-  "block.tutorialmod.mythril_block": "Mythril Block"
+  "block.tutorialmod.mythril_block": "Mythril Block",
+  "block.tutorialmod.mythril_ore": "Mythril Ore",
+  "block.tutorialmod.stone_brick_pillar": "Stone Brick Pillar"
 }
