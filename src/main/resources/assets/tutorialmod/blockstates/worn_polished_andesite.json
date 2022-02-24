@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tutorialmod:block/worn_polished_andesite",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tutorialmod:block/worn_polished_andesite"
+    },
+    "axis=z": {
+      "model": "tutorialmod:block/worn_polished_andesite_horizontal",
+      "x": 90
+    }
+  }
+}

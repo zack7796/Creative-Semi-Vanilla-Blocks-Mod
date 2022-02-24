@@ -13,15 +13,24 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.zack7796.tutorialmod.TutorialMod;
 import net.minecraft.util.registry.Registry;
+import net.zack7796.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ItemGroup.MISC);
+    //Full Blocks
+    public static final Block CUT_ANDESITE = registerBlock("cut_andesite",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
     public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+
+
+    //Pillar Blocks
     public static final Block STONE_BRICK_PILLAR = registerBlock("stone_brick_pillar",
-            new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ItemGroup.MISC);
+            new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+    public static final Block WORN_POLISHED_ANDESITE = registerBlock("worn_polished_andesite",
+            new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+    public static final Block RUSTED_PILLAR = registerBlock("rusted_pillar",
+            new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(5F).requiresTool().sounds(BlockSoundGroup.BASALT)), ModItemGroup.MYTHRIL);
 
 
 

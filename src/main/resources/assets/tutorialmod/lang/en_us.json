@@ -3,7 +3,11 @@
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
 
 
-  "block.tutorialmod.mythril_block": "Mythril Block",
+  "block.tutorialmod.cut_andesite": "Cut Andesite",
   "block.tutorialmod.mythril_ore": "Mythril Ore",
-  "block.tutorialmod.stone_brick_pillar": "Stone Brick Pillar"
+  "block.tutorialmod.stone_brick_pillar": "Stone Brick Pillar",
+  "block.tutorialmod.worn_polished_andesite": "Worn Polished Andesite",
+  "block.tutorialmod.rusted_pillar": "Rusted Pillar",
+
+  "itemGroup.tutorialmod.mythril": "SMP DIE Mod"
 }

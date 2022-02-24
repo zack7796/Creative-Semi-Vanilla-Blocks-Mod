@@ -9,5 +9,5 @@ import net.zack7796.tutorialmod.TutorialMod;
 
 public class ModItemGroup {
     public static final ItemGroup MYTHRIL = FabricItemGroupBuilder.build(new Identifier(TutorialMod.MOD_ID, "mythril"),
-            () -> new ItemStack(ModItems.MYTHRIL_INGOT));
+            () -> new ItemStack(ModItems.MYTHRIL_NUGGET));
 }
