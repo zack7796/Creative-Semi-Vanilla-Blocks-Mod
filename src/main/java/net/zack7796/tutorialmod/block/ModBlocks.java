@@ -3,6 +3,7 @@ package net.zack7796.tutorialmod.block;
 import net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.BeaconBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.PillarBlock;
@@ -31,6 +32,12 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
     public static final Block RUSTED_PILLAR = registerBlock("rusted_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(5F).requiresTool().sounds(BlockSoundGroup.BASALT)), ModItemGroup.MYTHRIL);
+    public static final Block OBSIDIAN_PILLAR = registerBlock("obsidian_pillar",
+            new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(50F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+
+    //Light Blocks
+    public static final Block JEDI_HOLOCRON = registerBlock("jedi_holocron",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(1F).breakByHand(true).sounds(BlockSoundGroup.GLASS).luminance((int) 16F)), ModItemGroup.MYTHRIL);
 
 
 
