@@ -20,7 +20,7 @@ public class ModBlocks {
 
     //Full Blocks
     public static final Block CUT_ANDESITE = registerBlock("cut_andesite",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE_TILES)), ModItemGroup.MYTHRIL);
     public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
 
@@ -31,7 +31,7 @@ public class ModBlocks {
     public static final Block WORN_POLISHED_ANDESITE = registerBlock("worn_polished_andesite",
             new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
     public static final Block RUSTED_PILLAR = registerBlock("rusted_pillar",
-            new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(5F).requiresTool().sounds(BlockSoundGroup.BASALT)), ModItemGroup.MYTHRIL);
+            new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(1.5F).requiresTool().sounds(BlockSoundGroup.BONE)), ModItemGroup.MYTHRIL);
     public static final Block OBSIDIAN_PILLAR = registerBlock("obsidian_pillar",
             new PillarBlock(FabricBlockSettings.of(Material.STONE).strength(50F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
 
