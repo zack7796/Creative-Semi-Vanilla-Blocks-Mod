@@ -4,7 +4,7 @@
       "model": "tutorialmod:block/calcite_slab"
     },
     "type=double": {
-      "model": "tutorialmod:block/calcite_block"
+      "model": "minecraft:block/calcite"
     },
     "type=top": {
       "model": "tutorialmod:block/calcite_slab_top"

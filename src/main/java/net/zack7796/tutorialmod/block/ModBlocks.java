@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Matrix3f;
 import net.zack7796.tutorialmod.TutorialMod;
 import net.minecraft.util.registry.Registry;
+import net.zack7796.tutorialmod.block.custom.ModStairsBlock;
 import net.zack7796.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
@@ -22,8 +23,6 @@ public class ModBlocks {
     public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
-    public static final Block KALCITE = registerBlock("kalcite",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
 
 
@@ -46,8 +45,8 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
 
     //Stair Blocks
-    //public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
-      //      new StairsBlock(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
+    public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
+            new ModStairsBlock(ModBlocks.CALCITE_SLAB.getDefaultState(),FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
 
 
 
