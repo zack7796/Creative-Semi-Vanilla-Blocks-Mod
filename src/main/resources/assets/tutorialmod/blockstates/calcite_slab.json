@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/calcite_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/calcite_block"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/calcite_slab_top"
+    }
+  }
+}
