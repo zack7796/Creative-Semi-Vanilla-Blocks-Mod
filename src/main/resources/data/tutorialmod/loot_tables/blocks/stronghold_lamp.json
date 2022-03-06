@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:calcite_stairs"
+          "name": "tutorialmod:stronghold_lamp"
         }
       ],
       "conditions": [

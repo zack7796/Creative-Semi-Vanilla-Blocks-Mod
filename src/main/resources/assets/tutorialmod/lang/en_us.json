@@ -9,10 +9,13 @@
   "block.tutorialmod.worn_polished_andesite": "Worn Polished Stone",
   "block.tutorialmod.rusted_pillar": "Rusted Pillar",
   "block.tutorialmod.jedi_holocron": "Jedi Holocron",
-  "block.tutorialmod.obsidian_pillar": "Obsidian pillar",
+  "block.tutorialmod.obsidian_pillar": "Obsidian Pillar",
   "block.tutorialmod.calcite_bricks": "Calcite Bricks",
   "block.tutorialmod.calcite_slab": "Calcite Slab",
   "block.tutorialmod.calcite_stairs": "Calcite Stairs",
+  "block.tutorialmod.stronghold_lamp": "Stronghold Lamp",
+  "block.tutorialmod.amethyst_slab": "Amethyst Slab",
+  "block.tutorialmod.amethyst_stairs": "Amethyst Stairs",
 
 
   "itemGroup.tutorialmod.mythril": "SMP DIE Mod"
