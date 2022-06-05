@@ -1,6 +1,9 @@
 package net.zack7796.tutorialmod.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -13,6 +16,11 @@ public class ModItems {
 
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
+
+    public static final Item WARDEN_HELMET = registerItem("warden_helmet",
+            new ArmorItem(ModArmorMaterials.WARDEN, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group((ModItemGroup.MYTHRIL))));
+
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

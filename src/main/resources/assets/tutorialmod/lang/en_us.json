@@ -1,10 +1,10 @@
 {
-  "item.tutorialmod.mythril_ingot": "Mythril Ingot",
-  "item.tutorialmod.mythril_nugget": "Mythril Nugget",
+  "item.tutorialmod.mythril_ingot": "Test 1",
+  "item.tutorialmod.mythril_nugget": "Test 2",
 
 
   "block.tutorialmod.cut_andesite": "Cut Andesite Tiles",
-  "block.tutorialmod.mythril_ore": "Mythril Ore",
+  "block.tutorialmod.mythril_ore": "Test 3",
   "block.tutorialmod.stone_brick_pillar": "Stone Brick Pillar",
   "block.tutorialmod.worn_polished_andesite": "Worn Polished Stone",
   "block.tutorialmod.rusted_pillar": "Rusted Pillar",
@@ -16,6 +16,8 @@
   "block.tutorialmod.stronghold_lamp": "Stronghold Lamp",
   "block.tutorialmod.amethyst_slab": "Amethyst Slab",
   "block.tutorialmod.amethyst_stairs": "Amethyst Stairs",
+
+  "item.tutorialmod.warden_helmet": "Helm of the Warden",
 
 
   "itemGroup.tutorialmod.mythril": "SMP DIE Mod"

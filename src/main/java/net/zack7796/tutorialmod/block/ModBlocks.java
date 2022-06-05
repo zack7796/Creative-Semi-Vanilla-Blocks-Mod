@@ -26,6 +26,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(1F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
+    public static final Block BIOME_MOSS = registerBlock("biome_moss",
+            new GrassBlock(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.1F).requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK)), ModItemGroup.MYTHRIL);
 
 
     //Pillar Blocks
@@ -40,7 +42,7 @@ public class ModBlocks {
 
     //Light Blocks
     public static final Block JEDI_HOLOCRON = registerBlock("jedi_holocron",
-            new Block(FabricBlockSettings.of(Material.GLASS).strength(1F).breakByHand(true).sounds(BlockSoundGroup.GLASS).luminance((int) 16F)), ModItemGroup.MYTHRIL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).breakByHand(true).sounds(BlockSoundGroup.GLASS).luminance((int) 16F)), ModItemGroup.MYTHRIL);
     public static final Block STRONGHOLD_LAMP = registerBlock("stronghold_lamp",
             new ModLampBlock(FabricBlockSettings.of(Material.STONE)
                     .strength(1.5f).requiresTool()
