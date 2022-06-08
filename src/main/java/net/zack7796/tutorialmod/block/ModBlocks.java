@@ -27,7 +27,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.CALCITE)), ModItemGroup.MYTHRIL);
     public static final Block BIOME_MOSS = registerBlock("biome_moss",
             new GrassBlock(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(0.1F).requiresTool().sounds(BlockSoundGroup.MOSS_BLOCK)), ModItemGroup.MYTHRIL);
-
+    public static final Block WHITE_STONE_BRICKS = registerBlock("white_stone_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(0.8F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+    public static final Block WHITE_STONE = registerBlock("white_stone",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.MYTHRIL);
+    public static final Block EMERALD_PLANKS = registerBlock("emerald_planks",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F).requiresTool().sounds(BlockSoundGroup.WOOD)), ModItemGroup.MYTHRIL);
 
     //Pillar Blocks
     public static final Block STONE_BRICK_PILLAR = registerBlock("stone_brick_pillar",
