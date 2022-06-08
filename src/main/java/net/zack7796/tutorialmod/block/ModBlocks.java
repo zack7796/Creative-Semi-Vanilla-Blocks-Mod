@@ -1,6 +1,5 @@
 package net.zack7796.tutorialmod.block;
 
-import net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -42,7 +41,7 @@ public class ModBlocks {
 
     //Light Blocks
     public static final Block JEDI_HOLOCRON = registerBlock("jedi_holocron",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).breakByHand(true).sounds(BlockSoundGroup.GLASS).luminance((int) 16F)), ModItemGroup.MYTHRIL);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1F).breakInstantly().sounds(BlockSoundGroup.GLASS).luminance((int) 16F)), ModItemGroup.MYTHRIL);
     public static final Block STRONGHOLD_LAMP = registerBlock("stronghold_lamp",
             new ModLampBlock(FabricBlockSettings.of(Material.STONE)
                     .strength(1.5f).requiresTool()
