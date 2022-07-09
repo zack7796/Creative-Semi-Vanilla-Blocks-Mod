@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:clear_water_still",
+    "tutorialmod:clear_water_flowing"
+  ]
+}

@@ -1,7 +1,9 @@
 {
   "item.tutorialmod.mythril_ingot": "Test 1",
   "item.tutorialmod.mythril_nugget": "Test 2",
-
+  "item.tutorialmod.dark_saber": "Dark Saber",
+  "item.tutorialmod.dark_saber_temporary": "Dark Saber Temporary",
+  "item.tutorialmod.clear_water_bucket": "Bucket of Clear Water",
 
   "block.tutorialmod.cut_andesite": "Cut Andesite Tiles",
   "block.tutorialmod.mythril_ore": "Test 3",

@@ -12,8 +12,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Matrix3f;
 import net.zack7796.tutorialmod.TutorialMod;
 import net.minecraft.util.registry.Registry;
+import net.zack7796.tutorialmod.block.custom.ModFluidBlock;
 import net.zack7796.tutorialmod.block.custom.ModLampBlock;
 import net.zack7796.tutorialmod.block.custom.ModStairsBlock;
+import net.zack7796.tutorialmod.fluid.ModFluids;
 import net.zack7796.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
@@ -65,6 +67,10 @@ public class ModBlocks {
     public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs",
             new ModStairsBlock(ModBlocks.AMETHYST_SLAB.getDefaultState(),FabricBlockSettings.of(Material.STONE).strength(1.5F).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)), ModItemGroup.MYTHRIL);
 
+    //Fluid Blocks
+    public static final Block CLEAR_WATER_BLOCK = registerBlock("clear_water_block",
+            new ModFluidBlock(ModFluids.CLEAR_WATER_STILL, FabricBlockSettings.of(Material.WATER)
+                    .noCollision().nonOpaque().dropsNothing()), ModItemGroup.MYTHRIL);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
